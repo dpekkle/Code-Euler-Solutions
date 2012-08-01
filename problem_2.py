@@ -20,3 +20,5 @@ while y < 4000000:
 	
 
 print sum
+
+# Answer: 4613732

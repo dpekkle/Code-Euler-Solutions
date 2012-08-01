@@ -20,5 +20,10 @@ x = primefactors(600851475143)
 Answer = 1
 for i in x:
 	Answer *= i
+
+if Answer == 600851475143:
+	print "The prime factors of %d are: %s" % (Answer, x)
+else:
+	print "Error: Code failed."
 	
-print "The prime factors of %d are: %s" % (Answer, x)
+# Answer: [1, 71, 839, 1471, 6857]
